@@ -4,6 +4,7 @@ cap = cv2.VideoCapture(0)
 
 cara = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
+
 if cv2.__version__.startswith('2.4'):
     dmf_flag = cv2.cv.CV_HAAR_SCALE_IMAGE
 else:

@@ -34,11 +34,11 @@ PARAMETERS:
 cascadeDirName: E:\Personal\CETI\7mo Semestre\Vision Artificial\GitHub\Proyecto\classifier
 vecFileName: E:\Personal\CETI\7mo Semestre\Vision Artificial\GitHub\Proyecto\pos_samples.vec
 bgFileName: E:\Personal\CETI\7mo Semestre\Vision Artificial\GitHub\Proyecto\neg.lst
+
 numPos: 71
 numNeg: 251
 numStages: 20
 precalcValBufSize[Mb] : 1024
-
 precalcIdxBufSize[Mb] : 1024
 acceptanceRatioBreakValue : -1
 stageType: BOOST
@@ -384,7 +384,7 @@ NEG current samples: 250
 NEG current samples: 251
 NEG count : acceptanceRatio    251 : 1
 
-Precalculation time: 10.725
+Precalculation time: 7.706
 
 +----+---------+---------+
 |  N |    HR   |    FA   |
@@ -401,7 +401,7 @@ Precalculation time: 10.725
 
 END>
 
-Training until now has taken 0 days 0 hours 0 minutes 23 seconds.
+Training until now has taken 0 days 0 hours 0 minutes 20 seconds.
 
 
 ===== TRAINING 1-stage =====
@@ -734,7 +734,7 @@ NEG current samples: 250
 NEG current samples: 251
 NEG count : acceptanceRatio    251 : 0.305725
 
-Precalculation time: 8.035
+Precalculation time: 6.907
 
 +----+---------+---------+
 |  N |    HR   |    FA   |
@@ -751,7 +751,7 @@ Precalculation time: 8.035
 
 END>
 
-Training until now has taken 0 days 0 hours 0 minutes 45 seconds.
+Training until now has taken 0 days 0 hours 0 minutes 34 seconds.
 
 
 ===== TRAINING 2-stage =====
@@ -1084,11 +1084,10 @@ NEG current samples: 250
 NEG current samples: 251
 NEG count : acceptanceRatio    251 : 0.0480567
 
-Precalculation time: 6.584
+Precalculation time: 5.535
 
 +----+---------+---------+
 |  N |    HR   |    FA   |
-
 +----+---------+---------+
 
 |   1|        1|        1|
@@ -1102,7 +1101,7 @@ Precalculation time: 6.584
 
 END>
 
-Training until now has taken 0 days 0 hours 1 minutes 1 seconds.
+Training until now has taken 0 days 0 hours 0 minutes 46 seconds.
 
 
 ===== TRAINING 3-stage =====
@@ -1435,7 +1434,7 @@ NEG current samples: 250
 NEG current samples: 251
 NEG count : acceptanceRatio    251 : 0.00398577
 
-Precalculation time: 5.131
+Precalculation time: 3.043
 
 +----+---------+---------+
 |  N |    HR   |    FA   |
@@ -1446,7 +1445,7 @@ Precalculation time: 5.131
 
 END>
 
-Training until now has taken 0 days 0 hours 1 minutes 23 seconds.
+Training until now has taken 0 days 0 hours 1 minutes 0 seconds.
 
 
 ===== TRAINING 4-stage =====
